@@ -1,0 +1,27 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.navbar{
+    width: 90%;
+    height: 10vh;
+    background-color: plum;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    position: fixed;
+    top: 0%;
+    left: 5%;
+    right:0%;
+}
+.navbar div nav ul .link{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    padding: 0% 10px;
+}
+.navbar div nav ul{
+    padding: 0% 20px;
+}
